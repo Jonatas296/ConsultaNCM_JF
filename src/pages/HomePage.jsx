@@ -42,7 +42,7 @@ export default function HomePage() {
       return [];
     }
   });
-
+  //atualização favoritos
   useEffect(() => {
     try {
       localStorage.setItem(LS_KEY, JSON.stringify(favoritos));
@@ -141,7 +141,7 @@ export default function HomePage() {
           <div className="brand__logo">
             <div className="brand__logoMark">JF</div>
             <div className="brand__logoText">
-              <div className="brand__name">José Filho</div>
+              <div className="brand__name">Escritório de</div>
               <div className="brand__sub">Contabilidade</div>
             </div>
           </div>
