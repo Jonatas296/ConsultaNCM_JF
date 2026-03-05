@@ -186,10 +186,6 @@ export default function HomePage() {
             emptyText="Nenhum favorito ainda."
           />
         </div>
-
-        <div className="hint">
-          Agora o código também lista resultados.
-        </div>
       </div>
     </div>
   );
